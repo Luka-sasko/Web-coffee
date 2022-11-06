@@ -1,0 +1,66 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(50px, auto);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.who{
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.pic{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.text{
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 20px;
+}
+
+.where{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.location{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.informations{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.information-about{
+    grid-column:3;
+    grid-row: 2;
+    
+}
+
+#caffe{
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
+    border: 2px solid lightgoldenrodyellow
+
+}
+
+
+#social{
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    border:2px solid black;
+}
+
+p{
+    font-family: serif;
+    font-weight:bold;
+}
